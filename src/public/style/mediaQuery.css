@@ -1,0 +1,21 @@
+@media (max-width: 430px) {
+    main {
+        height: 90vh;
+    }
+
+    .container {
+        gap: 1rem;
+        width: 80%;
+        padding: 3rem 2rem 4rem 2rem;
+    }
+
+    .text {
+        font-size: 18px;
+        width: 21rem;
+    }
+
+    .dice {
+        top: 21.5rem;
+    }
+    
+}

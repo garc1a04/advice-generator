@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Manrope:wght@200..800&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.manrope-800 {
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background-color: hsl(218, 23%, 16%);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    
+    gap: 1rem;
+    padding: 2.5rem;
+    padding-bottom: 4rem;
+}
+
+.container-background {
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 15px;
+}
+
+.text {
+    font-size: 18px;
+    width: 27rem;
+    width: 450px;
+}
+
+.advice {
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
+    color: hsl(150, 100%, 66%);
+}
+
+.phrase {
+    color: hsl(193, 38%, 86%);
+}
+
+.dice {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: -2rem;
+}
+
+.dice-background {
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 10rem;
+    padding: 1.2rem;
+}

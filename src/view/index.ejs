@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <title>Frontend Mentor | Advice generator app</title>
+
+  <!--Styles-->
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/script.css">
+  <link rel="stylesheet" href="style/mediaQuery.css">
+</head>
+<body>
+
+  <section class="Informations">
+    <main>
+      <div class="container container-background">
+        <%- include('text.ejs') %>
+
+        <div class="divider">
+          <picture>
+              <source media="(max-width: 430px)" srcset="images/pattern-divider-mobile.svg" />
+              <img src="images/pattern-divider-desktop.svg" />
+          </picture>
+        </div>
+
+        <div class="dice dice-background ">
+          <img src="images/icon-dice.svg">
+        </div>
+
+      </div>
+    </main>
+  </section>
+
+  <!--Scripts-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="script/script.js"></script>
+</body>
+</html>

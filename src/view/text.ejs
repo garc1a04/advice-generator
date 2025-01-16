@@ -1,0 +1,12 @@
+<% if (locals.data) { %>
+    <div class="text manrope-800">
+        <p class="advice">ADVICE #<%=data.id%></p>
+        <h2 class="phrase"><%= data.advice %></h2>
+    </div>
+    
+<% } else { %>
+    <div class="text manrope-800">
+        <p class="advice">ADVICE #117</p>
+        <h2 class="phrase">"It is easy to sit up and take notice, what's difficult is getting up and taking action."</h2>
+    </div>
+<% }%>
