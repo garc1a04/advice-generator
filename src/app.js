@@ -10,13 +10,13 @@ const urlAPI = "http://localhost:3000";
 var advice = null;
 
 //middleware
-app.use(express.static(dirName+'\\public'))
+app.use(express.static(dirName+'/public'));
 app.use(api);
 
 
 //routes
 app.get("/", (req,res)=> {
-    res.render(dirName+'\\view\\index.ejs',{
+    res.render(dirName+'/view/index.ejs',{
         data: advice
     });
 })
