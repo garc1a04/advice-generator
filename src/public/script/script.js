@@ -1,4 +1,4 @@
-const urlAPI = "http://localhost:3000";
+const urlAPI = "https://advice-generator-mtb1.onrender.com";
 
 function mouseIn() {
     $(".dice").mouseenter(function () {
