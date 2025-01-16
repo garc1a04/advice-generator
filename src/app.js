@@ -6,7 +6,7 @@ import api from './API/index.js';
 
 const app = express();
 const dirName = dirname(fileURLToPath(import.meta.url));
-const urlAPI = "http://localhost:3000";
+const urlAPI = "https://advice-generator-mtb1.onrender.com";
 var advice = null;
 
 //middleware
